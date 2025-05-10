@@ -96,7 +96,6 @@ header .slogan{
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
-    
   }
   
   .nav-bar a:hover {
@@ -172,7 +171,7 @@ form{
     font-size: larger;
 }
 
-proceso .img{
+.proceso .img{
     transition: 0.5s;
 }
 
@@ -279,6 +278,14 @@ proceso .img{
     border-width: 5px;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+
+  }
+
+  .logica img:hover{
+    transform: scale(1.1);
+    border-radius: 30%;
+
   }
 
 footer{
